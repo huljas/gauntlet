@@ -1,4 +1,5 @@
-h1. Gauntlet - The next generation ... something
+Gauntlet - The next generation ... something
+=============================================
 
 To be continued ...
 
