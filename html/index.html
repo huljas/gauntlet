@@ -6,19 +6,24 @@
 <script src="/nowjs/now.js"></script>
 
 <script>
-$(document).ready(function(){
+now.ready(function(){
+  now.name = "Name";
 
   now.receiveMessage = function(name, message){
     $("#messages").append("<br>" + name + ": " + message);
   }
 
-  $("#send-form").submit(function(){
+  var lastTick = 0;
+  now.tick = function(){
+    var delta = new Date().getTime() - lastTick; 
+    lastTick = new Date().getTime();
+    $("#ticker").html("Tick " + Math.abs(50 - delta));
+  }
+
+  $("#send-button").click(function(){
     now.distributeMessage($("#text-input").val());
     $("#text-input").val("");
-    return false;
   });
-
-  now.name = prompt("What's your name?", "");
 
 });
 </script>
@@ -26,10 +31,9 @@ $(document).ready(function(){
 
 <body>
   <h1>Gauntlet</h1>
+  <div id="ticker"></div>
   <div id="messages"></div>
-  <form id="send-form">
-    <input type="text" id="text-input">
-    <input type="button" value="Send" id="send-button">
-  </form>
+  <input type="text" id="text-input">
+  <input type="button" value="Send" id="send-button">
 </body>
 </html>

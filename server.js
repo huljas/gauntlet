@@ -10,3 +10,15 @@ var everyone = nowjs.initialize(server);
 everyone.now.distributeMessage = function(message){
   everyone.now.receiveMessage(this.now.name, message);
 };
+
+setInterval(function() {
+    everyone.getUsers(function (users) {
+      for (var i = 0; i < users.length; i++) {
+        nowjs.getClient(users[i], function () {
+          if (this.now.tick) {
+            this.now.tick();
+          }
+        });
+      }
+    });
+}, 1000 / 20);
