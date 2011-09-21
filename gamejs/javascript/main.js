@@ -42,21 +42,44 @@ Ship.prototype.update = function(msDuration) {
 	this.rotationDirection = 0;
 };
 
+
 function main() {
     // screen setup
     gamejs.display.setMode([800, 600]);
     gamejs.display.setCaption("Example Sprites");
     // create some ship sprites and put them in a group
-    var ship = new Ship([100, 100]);
-    var gShips = new gamejs.sprite.Group();
+    ship = new Ship([100, 100]);
+    gShips = new gamejs.sprite.Group();
     for (var j=0;j<4;j++) {
         for (var i=0; i<3; i++) {
-        //gShips.add(new Ship([10 + i*20, j * 20]));
+            //gShips.add(new Ship([10 + i*20, j * 20]));
         }
     }
 	var keysDown = {};
     // game loop
     var mainSurface = gamejs.display.getSurface();
+    
+    var remotes = {};
+    var id = "0";
+    now.ready(function(){
+       id = now.core.clientId;
+       console.log(id);
+       now.addRemoteShip = function(remoteId, remoteShip) {
+            console.log(remoteId);
+            var newShip = new Ship([remoteShip.rect.left, remoteShip.rect.top]);
+            gShips.add(newShip);
+            remotes[remoteId] = newShip;
+       }
+       now.updateRemoteShip = function(remoteId, remoteShip) {
+            if (remotes[remoteId]) {
+                remotes[remoteId].rect.left = remoteShip.rect.left;
+                remotes[remoteId].rect.top = remoteShip.rect.top;
+                remotes[remoteId].rotation = remoteShip.rotation;
+            }
+       }
+       now.addShip(id, ship);       
+    });	
+    
     // msDuration = time since last tick() call
     var tick = function(msDuration) {
         mainSurface.fill("#000000");
@@ -67,28 +90,40 @@ function main() {
         ship.draw(mainSurface);
 
         var events = gamejs.event.get();
-        events.forEach(function(event) {
+        var updated = false;
+        events.forEach(function(event) {            
             if (event.type === gamejs.event.KEY_DOWN) {
                 gamejs.log("key down", event.key);
 				keysDown[event.key] = true;
+				updated = true;
 			}
 			if (event.type === gamejs.event.KEY_UP) {
 				gamejs.log("key up", event.key);
 				keysDown[event.key] = false;
+				updated = true;
 			}			
         });
 		if (keysDown[gamejs.event.K_a]) {
 			ship.rotationDirection = -1;
+			updated = true;
 		}
 		if (keysDown[gamejs.event.K_d]) {
 			ship.rotationDirection = 1;
+			updated = true;
 		}
 		if (keysDown[gamejs.event.K_w]) {
 			ship.movementDirection = 1;
+			updated = true;
 		}
 		if (keysDown[gamejs.event.K_s]) {
 			ship.movementDirection = -1;                    
+			updated = true;
 		}
+		
+		if (updated && id != "0") {
+            now.updateShip(id, ship);
+		}
+		
     };
 	gamejs.time.fpsCallback(tick, this, 60);
 }
