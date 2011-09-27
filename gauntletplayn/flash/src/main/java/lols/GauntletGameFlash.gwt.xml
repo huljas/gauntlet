@@ -1,0 +1,10 @@
+<module rename-to='gauntletplaynflash'>
+  <inherits name='playn.PlayNFlash'/>
+
+  <source path='core'/>
+  <source path='flash'/>
+
+  <public path="resources" />
+
+  <entry-point class='lols.flash.GauntletGameFlash'/>
+</module>
