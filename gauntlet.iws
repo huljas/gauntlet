@@ -2,14 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53c1468d-b10f-4c30-aa24-1367078ed464" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gauntletplayn/core/src/main/java/lols/resources/images/ship.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gauntletplayn/android/gauntletplayn-android.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gauntletplayn/core/gauntletplayn-core.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gauntletplayn/core/src/main/java/lols/core/Ship.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gauntletplayn/flash/gauntletplayn-flash.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gauntletplayn/gauntletplayn.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gauntletplayn/html/gauntletplayn-html.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="DELETED" beforePath="C:\Code\gamedev\gauntlet\game-gauntlet\android\game-gauntlet-android.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Code\gamedev\gauntlet\game-gauntlet\core\game-gauntlet-core.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Code\gamedev\gauntlet\game-gauntlet\flash\game-gauntlet-flash.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Code\gamedev\gauntlet\game-gauntlet\game-gauntlet.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Code\gamedev\gauntlet\game-gauntlet\html\game-gauntlet-html.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Code\gamedev\gauntlet\melonJS\data\GUI\title_screen.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Code\gamedev\gauntlet\melonJS\data\area01.tmx" afterPath="" />
+      <change type="DELETED" beforePath="C:\Code\gamedev\gauntlet\melonJS\data\area01_parallax\area01_bkg0.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Code\gamedev\gauntlet\melonJS\data\area01_parallax\area01_bkg1.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Code\gamedev\gauntlet\melonJS\data\area01_tileset\area01_level_tiles.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Code\gamedev\gauntlet\melonJS\data\area01_tileset\metatiles32x32.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Code\gamedev\gauntlet\melonJS\data\audio\DST-InertExponent.mp3" afterPath="" />
+      <change type="DELETED" beforePath="C:\Code\gamedev\gauntlet\melonJS\data\audio\DST-InertExponent.ogg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Code\gamedev\gauntlet\melonJS\data\audio\cling.mp3" afterPath="" />
+      <change type="DELETED" beforePath="C:\Code\gamedev\gauntlet\melonJS\data\audio\cling.ogg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Code\gamedev\gauntlet\melonJS\data\audio\jump.mp3" afterPath="" />
+      <change type="DELETED" beforePath="C:\Code\gamedev\gauntlet\melonJS\data\audio\jump.ogg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Code\gamedev\gauntlet\melonJS\data\audio\stomp.mp3" afterPath="" />
+      <change type="DELETED" beforePath="C:\Code\gamedev\gauntlet\melonJS\data\audio\stomp.ogg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Code\gamedev\gauntlet\melonJS\data\license.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Code\gamedev\gauntlet\melonJS\data\sprite\32x32_font.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Code\gamedev\gauntlet\melonJS\data\sprite\gripe_run_right.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Code\gamedev\gauntlet\melonJS\data\sprite\spinning_coin_gold.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Code\gamedev\gauntlet\melonJS\data\sprite\wheelie_right.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Code\gamedev\gauntlet\melonJS\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Code\gamedev\gauntlet\melonJS\lib\melonJS-0.9.0-min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Code\gamedev\gauntlet\melonJS\main.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gauntlet.iws" afterPath="$PROJECT_DIR$/gauntlet.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gauntletplayn/android/gauntletplayn-android.iml" afterPath="$PROJECT_DIR$/gauntletplayn/android/gauntletplayn-android.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gauntletplayn/core/gauntletplayn-core.iml" afterPath="$PROJECT_DIR$/gauntletplayn/core/gauntletplayn-core.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gauntletplayn/flash/gauntletplayn-flash.iml" afterPath="$PROJECT_DIR$/gauntletplayn/flash/gauntletplayn-flash.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gauntletplayn/html/gauntletplayn-html.iml" afterPath="$PROJECT_DIR$/gauntletplayn/html/gauntletplayn-html.iml" />
     </list>
     <ignored path="gauntlet.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,13 +104,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ship.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Ship.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gauntletplayn/core/src/main/java/lols/core/Ship.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="18" selection-start="429" selection-end="429" vertical-scroll-proportion="0.63309354">
+            <state line="23" column="18" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="41" selection-start="308" selection-end="308" vertical-scroll-proportion="0.51978415">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -107,7 +141,7 @@
       <file leaf-file-name="GauntletGameJava.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gauntletplayn/core/src/main/java/lols/java/GauntletGameJava.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="14" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0">
+            <state line="7" column="29" selection-start="123" selection-end="139" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -151,6 +185,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/gauntletplayn/core/src/main/java/lols/core/GauntletGame.java" />
         <option value="$PROJECT_DIR$/gauntletplayn/core/src/main/java/lols/core/Ship.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -291,10 +326,6 @@
               <option name="myItemId" value="lols" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -331,62 +362,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gauntlet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gauntlet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gauntletplayn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lols" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gauntlet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gauntlet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gauntletplayn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -696,13 +671,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../playn/sample/hello/core/src/playn/sample/hello/core/HelloGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="58" selection-start="1300" selection-end="1300" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../playn/sample/cute/core/src/playn/sample/cute/java/CuteGameJava.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="95" selection-start="597" selection-end="597" vertical-scroll-proportion="0.0">
@@ -760,13 +728,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gauntletplayn/core/src/main/java/lols/java/GauntletGameJava.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="14" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../playn/sample/showcase/core/src/playn/showcase/core/peas/entities/DynamicPhysicsEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="63" selection-start="336" selection-end="336" vertical-scroll-proportion="-1.6906475">
@@ -801,10 +762,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gauntletplayn/core/src/main/java/lols/core/Ship.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="18" selection-start="429" selection-end="429" vertical-scroll-proportion="0.63309354">
+        <state line="23" column="18" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gauntletplayn/core/src/main/java/lols/java/GauntletGameJava.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="29" selection-start="123" selection-end="139" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="41" selection-start="308" selection-end="308" vertical-scroll-proportion="0.51978415">
+          <folding />
         </state>
       </provider>
     </entry>

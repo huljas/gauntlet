@@ -1,13 +1,19 @@
 Gauntlet - The next generation ... something
 =============================================
 
-How to run:
+Building the playn example (maven 3 required):
 
-node server.js
+cd gauntletplayn
 
-Open browser at 
+mvn install
 
-http://localhost:8080/
+Running the example in Java (from IDEA):
 
-To be continued ...
+run GauntletGameJava class
 
+Running the example in JS:
+
+mvn clean install
+mvn test -Dtest-html
+
+open http://localhost:8080/ (and reload)
